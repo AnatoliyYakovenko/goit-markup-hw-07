@@ -1,0 +1,65 @@
+  .button {
+    background-color: $accent-color;
+  }
+  .button.primary {
+    color: $white-elements;
+  }
+  .button.secondary {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.44;
+  
+    background-color: $team-background-color;
+    transition: background-color 250ms $cubic,
+      box-shadow 250ms $cubic, color 250ms $cubic;
+  
+    cursor: pointer;
+  }
+  .order-button {
+    padding: 10px 32px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+  
+    cursor: pointer;
+  }
+  .buttons-list {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 50px;
+    list-style: none;
+    gap: 8px;
+  }
+  .portfolio_btn {
+    display: flex;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 4px;
+  }
+  
+  .buttons-list .button.secondary:hover,
+  .buttons-list .button.secondary:focus {
+    color: $white-elements;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    background-color: $accent-color;
+    outline: transparent;
+  }
+  .subscribe-btn {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+  }
+  .subscribe-btn__icon {
+    margin-left: 10px;
+    fill: $white-elements;
+  }
