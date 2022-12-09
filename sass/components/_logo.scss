@@ -1,20 +1,12 @@
-.logo {
-    font-family: Raleway, cursive;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: $black-elements;
-    text-decoration: none;
+.header-logo {
+    @include studio($black-elements);
   }
-  .logo-web {
+  .web-logo {
     color: $accent-color;
   }
-  .footer .logo {
-    color: $white-elements;
-  }
   .footer-logo {
+    @include studio($white-elements);
     display: block;
     margin-right: 0;
-  
     margin-bottom: 20px;
   }
